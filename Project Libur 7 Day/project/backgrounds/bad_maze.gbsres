@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "b17f4400-7f19-48d8-92c3-b5203c7cbd9b",
+  "name": "Bad Maze",
+  "symbol": "bg_bad_maze",
+  "width": 32,
+  "height": 64,
+  "imageWidth": 256,
+  "imageHeight": 512,
+  "filename": "Bad Maze.png",
+  "tileColors": "",
+  "autoColor": false
+}

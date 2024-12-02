@@ -1,0 +1,38 @@
+{
+  "_resourceType": "actor",
+  "id": "0657dceb-30f7-4277-bf64-cb6aa20d9694",
+  "_index": 3,
+  "symbol": "actor_14",
+  "prefabId": "",
+  "name": "",
+  "x": 18,
+  "y": 29,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "e2296414-21ae-4c19-8712-d600e10157e6",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Lily's House"
+        ],
+        "avatarId": ""
+      },
+      "id": "b8cda96f-ede0-4e18-b26d-00d1d60ec6d6"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

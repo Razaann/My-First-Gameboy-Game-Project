@@ -1,0 +1,38 @@
+{
+  "_resourceType": "actor",
+  "id": "622dee48-a3cb-4db3-9d7e-e67519712404",
+  "_index": 2,
+  "symbol": "actor_13",
+  "prefabId": "",
+  "name": "",
+  "x": 8,
+  "y": 29,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "e2296414-21ae-4c19-8712-d600e10157e6",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Marshall's House"
+        ],
+        "avatarId": ""
+      },
+      "id": "c19b20a1-c9c0-4cde-9d60-612a1f44cef3"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

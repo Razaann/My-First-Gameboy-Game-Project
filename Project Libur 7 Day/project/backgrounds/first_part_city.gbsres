@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "1356a03a-d08e-4c43-b709-e36ac6d4ee3f",
+  "name": "First Part City",
+  "symbol": "bg_first_part_city",
+  "width": 32,
+  "height": 52,
+  "imageWidth": 256,
+  "imageHeight": 416,
+  "filename": "First Part City.png",
+  "tileColors": "",
+  "autoColor": false
+}

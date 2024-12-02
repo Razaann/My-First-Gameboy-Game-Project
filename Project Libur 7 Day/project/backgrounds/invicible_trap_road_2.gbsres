@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "8c5b734d-f240-43df-9d2d-c2cbed8cda1f",
+  "name": "Invicible Trap Road 2",
+  "symbol": "bg_invicible_trap_road_2",
+  "width": 30,
+  "height": 20,
+  "imageWidth": 240,
+  "imageHeight": 160,
+  "filename": "Invicible Trap Road 2.png",
+  "tileColors": "",
+  "autoColor": false
+}

@@ -1,0 +1,60 @@
+{
+  "_resourceType": "actor",
+  "id": "d6ee59a2-750a-443d-9098-1e46169055fe",
+  "_index": 2,
+  "symbol": "actor_18",
+  "prefabId": "",
+  "name": "",
+  "x": 14,
+  "y": 3,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "268c4f25-ba01-40f1-8faa-89af6638a333",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "5",
+        "__collapseElse": true,
+        "condition": {
+          "type": "variable",
+          "value": "5"
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+            "args": {
+              "actorId": "d6ee59a2-750a-443d-9098-1e46169055fe"
+            },
+            "id": "f8cd4d55-865c-459b-9ff3-6833d41fb603"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "d6ee59a2-750a-443d-9098-1e46169055fe",
+              "spriteStateId": "Open"
+            },
+            "id": "76102639-7417-4421-b314-fa98df521da5"
+          }
+        ],
+        "false": []
+      },
+      "id": "dafe8e6b-e25e-4912-9d2b-fb07756c03ff"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

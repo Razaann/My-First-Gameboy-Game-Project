@@ -1,0 +1,39 @@
+{
+  "_resourceType": "scene",
+  "id": "9839bbc9-f6ab-4000-97b7-9696aa2977e7",
+  "_index": 1,
+  "type": "TOPDOWN",
+  "name": "Ran's Room",
+  "symbol": "scene_3",
+  "x": 60,
+  "y": 209.63347226451688,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "d33cff8b-40d2-45b3-9421-04e31f6776a4",
+  "tilesetId": "",
+  "paletteIds": [
+    ""
+  ],
+  "spritePaletteIds": [
+    "default-sprite"
+  ],
+  "autoFadeSpeed": 1,
+  "autoFadeEventCollapse": true,
+  "playerSpriteSheetId": "88f06ab1-185e-44f7-a77e-6b625effd662",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Ran:\nToday's college\nfinally done"
+        ],
+        "avatarId": ""
+      },
+      "id": "e4a9db68-8983-45fe-a408-51960040ec03"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0058+0f3+00a+0f7+003+0f8+002+0f!00c+0f2+002+0f!002+0f2+004+0f2+005+0f2+002+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f8+002+0f8+0015+"
+}

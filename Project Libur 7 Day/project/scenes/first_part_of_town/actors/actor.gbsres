@@ -1,0 +1,38 @@
+{
+  "_resourceType": "actor",
+  "id": "f9c9141f-0728-465c-9c4b-17ba10ec1e91",
+  "_index": 0,
+  "symbol": "actor_4",
+  "prefabId": "",
+  "name": "",
+  "x": 18,
+  "y": 15,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "e2296414-21ae-4c19-8712-d600e10157e6",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Robin's House"
+        ],
+        "avatarId": ""
+      },
+      "id": "1133d19d-3e37-416f-90af-8444591e281c"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

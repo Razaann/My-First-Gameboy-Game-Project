@@ -1,0 +1,26 @@
+{
+  "_resourceType": "trigger",
+  "id": "d0a6d388-d1ff-402d-acca-81bee4ef85f8",
+  "_index": 16,
+  "symbol": "trigger_44",
+  "prefabId": "",
+  "name": "",
+  "x": 58,
+  "y": 15,
+  "width": 2,
+  "height": 1,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "This place hasn't\nbuilding yet"
+        ],
+        "avatarId": ""
+      },
+      "id": "f7da4be9-c1e6-4057-836a-5095fe393730"
+    }
+  ],
+  "leaveScript": []
+}

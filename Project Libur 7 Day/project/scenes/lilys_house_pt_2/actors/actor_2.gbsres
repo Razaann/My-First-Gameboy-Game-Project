@@ -1,0 +1,154 @@
+{
+  "_resourceType": "actor",
+  "id": "1043dcdf-6b95-472c-a53e-a195e1ddcb43",
+  "_index": 1,
+  "symbol": "actor_21",
+  "prefabId": "",
+  "name": "",
+  "x": 8,
+  "y": 9,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "7f0c6f19-956a-4e97-8182-bd41d9458826",
+  "paletteId": "",
+  "direction": "left",
+  "moveSpeed": 1,
+  "animSpeed": 31,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "player",
+        "direction": {
+          "type": "direction",
+          "value": "right"
+        }
+      },
+      "id": "78e0525a-9836-496c-938b-e794a8a9e512"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "player",
+        "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
+      },
+      "id": "0abfe812-88dd-4829-bdac-9394d0d6f32e"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Ran:\nWhere am i ?!\nWho are you ?!!"
+        ],
+        "avatarId": "",
+        "__collapse": true
+      },
+      "id": "68f3e72a-d396-44b2-bc6d-00768faafea1"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "and are u a\ntalking dog ???"
+        ],
+        "avatarId": "",
+        "__collapse": true
+      },
+      "id": "43c12540-b16b-4302-9df1-91b5a364447f"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Lily:\nSlow down, i think\nu need to take \na breath first"
+        ],
+        "avatarId": "",
+        "__collapse": true
+      },
+      "id": "e3fa06c3-ff39-470e-8953-5c42f0a33467"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Ran:\nOk ok, i'm sorry\nit's just i had an\nweird dream before"
+        ],
+        "avatarId": "",
+        "__collapse": true
+      },
+      "id": "9a912884-8802-4668-a3c9-2225a422c5b7"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "and you a dog \nthat can talk,"
+        ],
+        "avatarId": "",
+        "__collapse": true
+      },
+      "id": "8a96dd7d-f551-4779-949c-bf6207171bb2"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "of course i'm \nfreak out"
+        ],
+        "avatarId": "",
+        "__collapse": true
+      },
+      "id": "3ac39e81-5644-483a-a7df-78aa7545407d"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "player",
+        "emoteId": "d5a48bf8-cac5-4839-a3f3-6ba8e064abe5"
+      },
+      "id": "6afd0f24-caf6-4717-ad12-2b6626435fe4"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Lily;\nWell, i feel weird\ntoo, because i've"
+        ],
+        "avatarId": "",
+        "__collapse": true
+      },
+      "id": "bdf7753c-3d01-4c00-8c7e-94942aefdf09"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "never seen a\ncreature like you"
+        ],
+        "avatarId": "",
+        "__collapse": true
+      },
+      "id": "19096dfb-7572-422e-9c46-b4c82843d30c"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "You sort of like\nelf, without the\nlong ear"
+        ],
+        "avatarId": "",
+        "__collapse": true
+      },
+      "id": "4feffee8-6974-4d25-afa6-7ca242b9803e"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

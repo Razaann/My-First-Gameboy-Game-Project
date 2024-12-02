@@ -1,0 +1,49 @@
+{
+  "_resourceType": "actor",
+  "id": "9082db66-92de-4dd7-ab77-5104928130ba",
+  "_index": 0,
+  "symbol": "actor_22",
+  "prefabId": "",
+  "name": "",
+  "x": 12,
+  "y": 9,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "0f1ad30e-d5b8-44a9-950d-ea0f7f64d24a",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 31,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Ted :\nHey, you're the\nkid that passed\nout on the beach"
+        ],
+        "avatarId": ""
+      },
+      "id": "598b158a-f8ca-43ba-9c77-6abd7ffba308"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "down"
+        }
+      },
+      "id": "835bb4ca-8949-4d20-bf9a-15c7de742a81"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

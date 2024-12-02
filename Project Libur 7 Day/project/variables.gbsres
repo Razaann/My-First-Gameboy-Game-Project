@@ -1,0 +1,45 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "0",
+      "name": "Menu",
+      "symbol": "var_menu"
+    },
+    {
+      "id": "1",
+      "name": "First Talk",
+      "symbol": "var_first_talk"
+    },
+    {
+      "id": "2",
+      "name": "Kucing",
+      "symbol": "var_kucing"
+    },
+    {
+      "id": "3",
+      "name": "Bed",
+      "symbol": "var_bed"
+    },
+    {
+      "id": "4",
+      "name": "Bed2",
+      "symbol": "var_bed2"
+    },
+    {
+      "id": "5",
+      "name": "RockPosition",
+      "symbol": "var_rockposition"
+    },
+    {
+      "id": "6",
+      "name": "Variable 6",
+      "symbol": "var_variable_0"
+    },
+    {
+      "id": "51e9258a-fb3b-4a87-9437-50beda240b80__L0",
+      "name": "Local 0",
+      "symbol": "var_local_0"
+    }
+  ]
+}

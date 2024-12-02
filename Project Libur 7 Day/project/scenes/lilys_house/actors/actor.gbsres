@@ -1,0 +1,71 @@
+{
+  "_resourceType": "actor",
+  "id": "f554e8c7-edee-49d8-9bdc-39f2f782c8c8",
+  "_index": 0,
+  "symbol": "actor_15",
+  "prefabId": "",
+  "name": "",
+  "x": 8,
+  "y": 9,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "7f0c6f19-956a-4e97-8182-bd41d9458826",
+  "paletteId": "",
+  "direction": "left",
+  "moveSpeed": 1,
+  "animSpeed": 31,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "5e1baf32-a412-42c4-a650-0350cbe02629",
+        "emoteId": "2d4b251d-0241-40eb-98e1-e396b236772c"
+      },
+      "id": "2b7acae2-e2c7-42e8-9cdc-1bc3da5e728d"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Lily :\nAre you awake ?"
+        ],
+        "avatarId": ""
+      },
+      "id": "e5eb7f43-8eaa-4db3-96f2-a48d70a8d221"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.2,
+        "frames": 30
+      },
+      "id": "6648d330-40b1-47a7-a830-fe40f159fb9f"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "e27cd87e-0291-4601-8204-d81c68b81e21",
+        "x": {
+          "type": "number",
+          "value": 4
+        },
+        "y": {
+          "type": "number",
+          "value": 9
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "2134c0ed-03f7-4025-83cc-25b274253b05"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

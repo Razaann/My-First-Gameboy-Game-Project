@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "4bf3794c-680a-45ff-a74d-25be72a3a998",
+  "name": "Beach House 3",
+  "symbol": "bg_beach_house_3",
+  "width": 32,
+  "height": 52,
+  "imageWidth": 256,
+  "imageHeight": 416,
+  "filename": "Beach House 3.png",
+  "tileColors": "",
+  "autoColor": false
+}

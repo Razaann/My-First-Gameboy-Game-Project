@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "291d0588-2681-4c90-835b-f596110fdd96",
+  "name": "Invicible Trap Road Hint Test",
+  "symbol": "bg_invicible_trap_road_hint",
+  "width": 90,
+  "height": 18,
+  "imageWidth": 720,
+  "imageHeight": 144,
+  "filename": "Invicible Trap Road Hint Test.png",
+  "tileColors": "",
+  "autoColor": false
+}

@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "9bc969c7-87da-4b57-b142-4d9200bbc1fb",
+  "_index": 10,
+  "type": "TOPDOWN",
+  "name": "Invicible Guide 1",
+  "symbol": "scene_14",
+  "x": 1861.0776606649695,
+  "y": 662.2786450153355,
+  "width": 30,
+  "height": 20,
+  "backgroundId": "8c5b734d-f240-43df-9d2d-c2cbed8cda1f",
+  "tilesetId": "",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "88f06ab1-185e-44f7-a77e-6b625effd662",
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0040+0f2+001c+0f2+0018+0f4+002+0f1c+002+0f1a+001a+0f4+001a+0f4+001a+0f4+001a+0f4+001a+0f4+001a+0f4+001a+0f4+001a+0f4+001a+0f4+001a+0f3e+003c+"
+}

@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "e27cd87e-0291-4601-8204-d81c68b81e21",
+  "_index": 7,
+  "type": "TOPDOWN",
+  "name": "Lily's House Pt 2",
+  "symbol": "scene_10",
+  "x": 238.36814072018586,
+  "y": 425.05645981519814,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "dcdb347d-c142-4f93-8176-7bcbe1812fbc",
+  "tilesetId": "",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "88f06ab1-185e-44f7-a77e-6b625effd662",
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0015+0f12+002+0f!0010+0f!002+0f!0010+0f!002+0f!008+0f2+006+0f!002+0f12+002+0f!006+0f4+006+0f!002+0f!006+0f4+006+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!00c+0f5+002+0f!00c+0f5+002+0f!00c+0f5+002+0f!00c+0f5+002+0f!0010+0f!002+0f!0010+0f!002+0f8+002+0f8+009+0f!002+0f!008+"
+}

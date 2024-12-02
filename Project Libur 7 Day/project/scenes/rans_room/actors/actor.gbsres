@@ -1,0 +1,92 @@
+{
+  "_resourceType": "actor",
+  "id": "abd6e46b-20ea-4c36-8bcc-77d865d6fa81",
+  "_index": 0,
+  "symbol": "actor_3",
+  "prefabId": "",
+  "name": "",
+  "x": 4,
+  "y": 7,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "d9b48227-a1b8-4d2f-a76f-2c3a8152d5c1",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Ran:\nWOW !!"
+        ],
+        "avatarId": ""
+      },
+      "id": "dabdd8c7-cb8e-4635-82cd-875f9684cca8"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "player",
+        "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
+      },
+      "id": "8b02dd6d-7fa8-4391-a979-5ac38550a5f0"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "My coding \nassignment\nhaven't done yet"
+        ],
+        "avatarId": ""
+      },
+      "id": "5254afa7-af95-4006-8059-d9faf756d444"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "player",
+        "emoteId": "bd43c5f2-f4ca-496b-8701-530b46351f9b"
+      },
+      "id": "132d49cd-0ab4-47e3-a7d9-67e2f746a30d"
+    },
+    {
+      "command": "EVENT_INC_VALUE",
+      "args": {
+        "variable": "3"
+      },
+      "id": "3422586e-4c8c-496f-a4f0-3598597c4eed"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Ran:\nI gonna finish\nthis assignment"
+        ],
+        "avatarId": "",
+        "__collapse": false
+      },
+      "id": "78071f29-39cb-41bf-88ae-d38447eb6921"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "first thing in\nthe morning"
+        ],
+        "avatarId": ""
+      },
+      "id": "9b622052-b030-400e-94cb-df85ab5ef441"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

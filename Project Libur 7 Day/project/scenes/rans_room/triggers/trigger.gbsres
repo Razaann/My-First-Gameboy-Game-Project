@@ -1,0 +1,26 @@
+{
+  "_resourceType": "trigger",
+  "id": "11d30023-b1d2-4abc-a046-8d602e866163",
+  "_index": 0,
+  "symbol": "trigger_0",
+  "prefabId": "",
+  "name": "",
+  "x": 9,
+  "y": 16,
+  "width": 2,
+  "height": 1,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Ran :\nIt's  already \nnight, i shouldn't\nwandering around"
+        ],
+        "avatarId": ""
+      },
+      "id": "7ceec41d-92bc-4e6a-bb6e-50b6137db547"
+    }
+  ],
+  "leaveScript": []
+}

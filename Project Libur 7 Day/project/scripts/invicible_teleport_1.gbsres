@@ -1,0 +1,28 @@
+{
+  "_resourceType": "script",
+  "id": "8fb82155-8bcf-4c56-ac4d-ba1e622fd4ea",
+  "name": "Invicible Teleport 1",
+  "symbol": "script_1",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "9bc969c7-87da-4b57-b142-4d9200bbc1fb",
+        "x": {
+          "type": "number",
+          "value": 4
+        },
+        "y": {
+          "type": "number",
+          "value": 11
+        },
+        "direction": "right",
+        "fadeSpeed": "2"
+      },
+      "id": "00771e2e-e234-4495-93a1-c57734573534"
+    }
+  ]
+}

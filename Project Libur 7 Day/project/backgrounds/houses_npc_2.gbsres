@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "b778a753-e7f9-4392-8b08-02bf4d45726d",
+  "name": "Houses NPC 2",
+  "symbol": "bg_houses_npc_2",
+  "width": 32,
+  "height": 52,
+  "imageWidth": 256,
+  "imageHeight": 416,
+  "filename": "Houses NPC 2.png",
+  "tileColors": "",
+  "autoColor": false
+}

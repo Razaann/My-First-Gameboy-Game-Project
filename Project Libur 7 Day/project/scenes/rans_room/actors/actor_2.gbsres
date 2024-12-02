@@ -1,0 +1,56 @@
+{
+  "_resourceType": "actor",
+  "id": "44f7929d-2381-4bbb-841c-8105a0654858",
+  "_index": 1,
+  "symbol": "actor_5",
+  "prefabId": "",
+  "name": "",
+  "x": 9,
+  "y": 7,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "d9b48227-a1b8-4d2f-a76f-2c3a8152d5c1",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Ran:\ni only got limited\ntype of shirt"
+        ],
+        "avatarId": ""
+      },
+      "id": "d899b54d-8d14-497f-af09-62d0e16ed3a5"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "player",
+        "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76"
+      },
+      "id": "1c31704f-eed3-4056-8548-6aef80ce4d43"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Do i need to\nbuy another shirt"
+        ],
+        "avatarId": ""
+      },
+      "id": "b5e7b91e-a112-43db-b753-fa1ea87ab6e7"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

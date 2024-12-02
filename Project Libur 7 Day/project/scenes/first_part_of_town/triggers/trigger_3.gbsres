@@ -1,0 +1,26 @@
+{
+  "_resourceType": "trigger",
+  "id": "d2616507-cb0f-408d-a8f6-2ff2639180c8",
+  "_index": 2,
+  "symbol": "trigger_8",
+  "prefabId": "",
+  "name": "",
+  "x": 20,
+  "y": 13,
+  "width": 2,
+  "height": 1,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Ran :\nIt's locked"
+        ],
+        "avatarId": ""
+      },
+      "id": "a84e6b6d-1712-41b7-9977-f3d579a637a5"
+    }
+  ],
+  "leaveScript": []
+}

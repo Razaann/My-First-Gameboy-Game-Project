@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "fb33fe53-6bf1-44ae-8b93-432a3976c126",
+  "name": "Rock Slider Room",
+  "symbol": "bg_rock_slider_room",
+  "width": 28,
+  "height": 26,
+  "imageWidth": 224,
+  "imageHeight": 208,
+  "filename": "Rock Slider Room.png",
+  "tileColors": "",
+  "autoColor": false
+}

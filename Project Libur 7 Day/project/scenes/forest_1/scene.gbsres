@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "1a3614b2-ebbb-4cfe-8b57-d5df15fb090f",
+  "_index": 4,
+  "type": "TOPDOWN",
+  "name": "Forest 1",
+  "symbol": "scene_6",
+  "x": 354.1864788817234,
+  "y": 755.9127884939496,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "c381da16-5d8c-4ac0-915b-8c5151c41e9f",
+  "tilesetId": "",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "88f06ab1-185e-44f7-a77e-6b625effd662",
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "008+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!008+0f9+002+0f9+0028+0f9+002+0f9+008+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!008+"
+}

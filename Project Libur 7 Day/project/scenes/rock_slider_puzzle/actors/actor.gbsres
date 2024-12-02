@@ -1,0 +1,92 @@
+{
+  "_resourceType": "actor",
+  "id": "2337f8c0-c474-4fd2-8897-a9e415754c65",
+  "_index": 0,
+  "symbol": "actor_16",
+  "prefabId": "",
+  "name": "",
+  "x": 10,
+  "y": 23,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "d9b48227-a1b8-4d2f-a76f-2c3a8152d5c1",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Reset the rock\npositon ?"
+        ],
+        "avatarId": ""
+      },
+      "id": "d18925d3-e581-4274-b135-f1d456986914"
+    },
+    {
+      "command": "EVENT_CHOICE",
+      "args": {
+        "variable": "L0",
+        "trueText": "Yes",
+        "falseText": "No"
+      },
+      "id": "9946c259-44fa-4352-91d2-66d3c6a63e36"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "L0",
+        "__collapseElse": true,
+        "condition": {
+          "type": "variable",
+          "value": "L0"
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CAMERA_SHAKE",
+            "args": {
+              "time": 0.5,
+              "frames": 30,
+              "shakeDirection": "diagonal",
+              "magnitude": {
+                "type": "number",
+                "value": 5
+              }
+            },
+            "id": "539bbcc5-75e0-40fd-8a2f-196494d88f28"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "51e9258a-fb3b-4a87-9437-50beda240b80",
+              "x": {
+                "type": "number",
+                "value": 12
+              },
+              "y": {
+                "type": "number",
+                "value": 7
+              }
+            },
+            "id": "1ec3d091-a7e7-4818-ab79-e5ed9023cb6c"
+          }
+        ],
+        "false": []
+      },
+      "id": "f078956e-575f-4d99-bd16-1ef61a7760f2"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

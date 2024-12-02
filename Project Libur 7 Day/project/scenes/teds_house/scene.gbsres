@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "20f1f24a-54ef-44ed-88ca-29aee52195d8",
+  "_index": 8,
+  "type": "TOPDOWN",
+  "name": "Ted's House",
+  "symbol": "scene_11",
+  "x": 60,
+  "y": 1136.047081282101,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "7949a26a-a62c-45c2-805f-cc6c913e8c5b",
+  "tilesetId": "",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "88f06ab1-185e-44f7-a77e-6b625effd662",
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "003d+0f12+002+0f!0010+0f!002+0f12+002+0f!006+0f4+002+0f5+002+0f!006+0f4+002+0f5+002+0f5+00c+0f!002+0f5+00c+0f!002+0f!002+0f2+00c+0f!002+0f!002+0f2+00c+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f8+002+0f8+009+0f4+0030+"
+}

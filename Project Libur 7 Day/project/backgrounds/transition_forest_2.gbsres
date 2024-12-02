@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "c381da16-5d8c-4ac0-915b-8c5151c41e9f",
+  "name": "Transition Forest 2",
+  "symbol": "bg_transition_forest_2",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Transition Forest 2.png",
+  "tileColors": "",
+  "autoColor": false
+}

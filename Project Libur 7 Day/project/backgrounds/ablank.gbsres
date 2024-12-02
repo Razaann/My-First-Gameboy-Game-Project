@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "1738f600-0d42-4b5b-9128-e7d06c39c695",
+  "name": "Ablank",
+  "symbol": "bg_ablank",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Ablank.png",
+  "tileColors": "",
+  "autoColor": false
+}

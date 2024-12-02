@@ -1,0 +1,105 @@
+{
+  "_resourceType": "actor",
+  "id": "1a128627-bc37-4862-be63-2b1813b15c14",
+  "_index": 2,
+  "symbol": "actor_1",
+  "prefabId": "",
+  "name": "",
+  "x": 16,
+  "y": 9,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "d9b48227-a1b8-4d2f-a76f-2c3a8152d5c1",
+  "paletteId": "",
+  "direction": "right",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_IF_EXPRESSION",
+      "args": {
+        "expression": "$03$ == 0",
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Ran: I must\ncheck my\nassignment first"
+              ],
+              "avatarId": ""
+            },
+            "id": "ebb965c5-a018-4d81-8695-031ffd726652"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Ran:\nDo i need to\nsleep right now ?"
+              ],
+              "avatarId": ""
+            },
+            "id": "8461586a-638e-4493-897b-1594603e47e6"
+          },
+          {
+            "command": "EVENT_CHOICE",
+            "args": {
+              "variable": "4",
+              "trueText": "Sleep",
+              "falseText": "Later"
+            },
+            "id": "08f71086-5cdb-4a52-ba17-681a71f950c8"
+          }
+        ]
+      },
+      "id": "ad6d2b4d-b531-4706-95e2-e0cd33ed0638"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "4",
+        "__collapseElse": true,
+        "condition": {
+          "type": "variable",
+          "value": "4"
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "c0bda16f-41f0-4715-ae10-6f6bfff543b3",
+              "x": {
+                "type": "number",
+                "value": 5
+              },
+              "y": {
+                "type": "number",
+                "value": 9
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "9e148337-55da-4283-bcf3-01632dffa1dd"
+          }
+        ],
+        "false": []
+      },
+      "id": "bfe9f3cc-af44-451f-9342-174d41b4159d"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

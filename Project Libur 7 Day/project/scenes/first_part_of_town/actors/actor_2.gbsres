@@ -1,0 +1,38 @@
+{
+  "_resourceType": "actor",
+  "id": "3b573eb3-a1f9-4b95-b52c-3bf61042e159",
+  "_index": 1,
+  "symbol": "actor_12",
+  "prefabId": "",
+  "name": "",
+  "x": 8,
+  "y": 15,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "e2296414-21ae-4c19-8712-d600e10157e6",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Ted's House"
+        ],
+        "avatarId": ""
+      },
+      "id": "d21bfe07-7ff6-4aa3-a78a-fe749620da5d"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}
